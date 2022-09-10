@@ -113,11 +113,13 @@ img {
   padding: 15px 20px;
   color: white;
   border-radius: 10px;
+  transition: all 0.5s;
 }
 
 .section__button:hover {
-  background-color: hsl(var(--hue), var(--sat), 20%);
-  transition: all 0.2s;
+  /* background-color: hsl(var(--hue), var(--sat), 20%); */
+  background-color: black
+
 }
 
 .section__pill__container {
